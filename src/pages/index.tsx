@@ -12,10 +12,13 @@ const Home: NextPage = () => {
               <li>🔥 TypeScript</li>
               <li>💎 tailwindcss</li>
               <li>📏 ESLint</li>
-              <li>💖 prettier</li>
+              <li>💖 Prettier</li>
               <li>🐶 Husky</li>
               <li>🚫 Lint-staged</li>
               <li>🚓 commitlint</li>
+              <li>📚 Storybook</li>
+              <li className="text-gray-400">🃏 Jest</li>
+              <li className="text-gray-400">🤖 Cypress</li>
             </ul>
           </div>
         </div>
