@@ -12,7 +12,9 @@
     "prepare": "husky install",
     "commit": "cz",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
@@ -38,6 +40,7 @@
     "@storybook/manager-webpack5": "^6.5.10",
     "@storybook/react": "^6.5.10",
     "@storybook/testing-library": "^0.0.13",
+    "@testing-library/cypress": "^8.0.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@trivago/prettier-plugin-sort-imports": "^3.3.0",
@@ -49,6 +52,7 @@
     "autoprefixer": "^10.4.8",
     "babel-loader": "^8.2.5",
     "commitizen": "^4.2.5",
+    "cypress": "^10.6.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.22.0",
     "eslint-config-next": "12.2.5",

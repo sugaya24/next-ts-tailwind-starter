@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import React from "react";
 
+import Button from "../components/ui/Button";
+
 const Home: NextPage = () => {
   return (
     <div className="mx-auto flex h-screen max-w-4xl flex-col text-center">
@@ -17,18 +19,13 @@ const Home: NextPage = () => {
               <li>🚫 Lint-staged</li>
               <li>🚓 commitlint</li>
               <li>📚 Storybook</li>
-              <li className="text-gray-400">🃏 Jest</li>
-              <li className="text-gray-400">🤖 Cypress</li>
+              <li>🃏 Jest</li>
+              <li>🤖 Cypress</li>
             </ul>
           </div>
         </div>
       </div>
-      <button
-        type="button"
-        className="mx-auto my-4 inline-block rounded-lg border border-cyan-600 bg-transparent px-6 py-2 font-bold text-cyan-600 transition duration-150 ease-in-out hover:border-transparent hover:bg-cyan-600 hover:text-white"
-      >
-        <a href="#">GitHub</a>
-      </button>
+      <Button text="GitHub" />
     </div>
   );
 };
