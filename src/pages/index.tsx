@@ -25,7 +25,9 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <Button text="GitHub" />
+      <a href="https://github.com/sugaya24/next-ts-tailwind-starter">
+        <Button text="GitHub" />
+      </a>
     </div>
   );
 };
