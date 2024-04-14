@@ -1,9 +1,4 @@
-import type { NextPage } from "next";
-import React from "react";
-
-import Button from "../components/ui/Button";
-
-const Home: NextPage = () => {
+export default function Home() {
   return (
     <div className="mx-auto flex h-screen max-w-4xl flex-col text-center">
       <div className="flex flex-grow flex-col items-center">
@@ -25,11 +20,9 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <a href="https://github.com/sugaya24/next-ts-tailwind-starter">
-        <Button text="GitHub" />
-      </a>
+      {/* <a href="https://github.com/sugaya24/next-ts-tailwind-starter">
+          <Button text="GitHub" />
+        </a> */}
     </div>
   );
-};
-
-export default Home;
+}
