@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <div className="mx-auto flex h-screen max-w-4xl flex-col text-center">
@@ -19,10 +21,14 @@ export default function Home() {
             </ul>
           </div>
         </div>
+        <div className="my-4">
+          <Button asChild>
+            <a href="https://github.com/sugaya24/next-ts-tailwind-starter">
+              GitHub
+            </a>
+          </Button>
+        </div>
       </div>
-      {/* <a href="https://github.com/sugaya24/next-ts-tailwind-starter">
-          <Button text="GitHub" />
-        </a> */}
     </div>
   );
 }

@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "test": "jest",
-    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
-    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
+    "lint": "eslint --ignore-path .gitignore 'src/**/*.+(ts|js|tsx)'",
+    "format": "prettier --ignore-path .gitignore 'src/**/*.+(ts|js|tsx)'",
     "prepare": "husky install",
     "commit": "cz",
     "storybook": "start-storybook -p 6006",
@@ -23,9 +23,15 @@
     ]
   },
   "dependencies": {
-    "next": "^14.2.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.368.0",
+    "next": "^14.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.18.10",

@@ -2,6 +2,7 @@
 
 - 🔥 TypeScript
 - 💎 tailwindcss
+- 🐟 shadcn/ui
 - 📏 ESLint
 - 💖 Prettier
 - 🐶 Husky
