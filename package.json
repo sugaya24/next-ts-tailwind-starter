@@ -18,8 +18,8 @@
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
-      "yarn format --write",
-      "yarn lint"
+      "bun format --write",
+      "bun lint"
     ]
   },
   "dependencies": {
