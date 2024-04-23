@@ -10,6 +10,7 @@ export default function Home() {
             <ul>
               <li>🔥 TypeScript</li>
               <li>💎 tailwindcss</li>
+              <li>🐟 shadcn/ui</li>
               <li>📏 ESLint</li>
               <li>💖 Prettier</li>
               <li>🐶 Husky</li>
@@ -23,7 +24,11 @@ export default function Home() {
         </div>
         <div className="my-4">
           <Button asChild>
-            <a href="https://github.com/sugaya24/next-ts-tailwind-starter">
+            <a
+              href="https://github.com/sugaya24/next-ts-tailwind-starter"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
           </Button>
