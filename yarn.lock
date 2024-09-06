@@ -1230,11 +1230,11 @@
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
 "@chromatic-com/storybook@^1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@chromatic-com/storybook/-/storybook-1.3.3.tgz#102d173d7e67cbc7f974648eaa459aa3d3d53f91"
-  integrity sha512-1y9r691T5vVGDZ0HY3YrCXUnvtrT2YrhDuvDZSvYSNUVpM/Imz6i1dnNMKb3eoI1qRsH55mI4zCt+Iq94NLedQ==
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@chromatic-com/storybook/-/storybook-1.9.0.tgz#d95eb3474783bcc17a830a7627c3f099c1f75ba5"
+  integrity sha512-vYQ+TcfktEE3GHnLZXHCzXF/sN9dw+KivH8a5cmPyd9YtQs7fZtHrEgsIjWpYycXiweKMo1Lm1RZsjxk8DH3rA==
   dependencies:
-    chromatic "^11.3.0"
+    chromatic "^11.4.0"
     filesize "^10.0.12"
     jsonfile "^6.1.0"
     react-confetti "^6.1.0"
@@ -3851,7 +3851,7 @@ ansi-regex@^5.0.1:
 
 ansi-regex@^6.0.1:
   version "6.0.1"
-  resolved "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-6.0.1.tgz#3183e38fae9a65d7cb5e53945cd5897d0260a06a"
   integrity sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==
 
 ansi-styles@^3.2.1:
@@ -4686,10 +4686,10 @@ chownr@^2.0.0:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
 
-chromatic@^11.3.0:
-  version "11.3.0"
-  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-11.3.0.tgz#d46b7aac1a0eaed29a765645eaf93c484220174c"
-  integrity sha512-q1ZtJDJrjLGnz60ivpC16gmd7KFzcaA4eTb7gcytCqbaKqlHhCFr1xQmcUDsm14CK7JsqdkFU6S+JQdOd2ZNJg==
+chromatic@^11.4.0:
+  version "11.7.1"
+  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-11.7.1.tgz#9de59dd9d0e2a847627bccd959f05881335b524e"
+  integrity sha512-LvgPimdQdnQB07ZDxLEC2KtxgYeqTw0X71GA7fi3zhgtKLxZcE+BSZ/5I9rrQp1V8ydmfElfw0ZwnUH4fVgUAQ==
 
 chrome-trace-event@^1.0.2:
   version "1.0.3"
@@ -6584,9 +6584,9 @@ filelist@^1.0.4:
     minimatch "^5.0.1"
 
 filesize@^10.0.12:
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/filesize/-/filesize-10.1.1.tgz#eb98ce885aa73741199748e70e5b7339cc22c5ff"
-  integrity sha512-L0cdwZrKlwZQkMSFnCflJ6J2Y+5egO/p3vgRSDQGxQt++QbUZe5gMbRO6kg6gzwQDPvq2Fk9AmoxUNfZ5gdqaQ==
+  version "10.1.6"
+  resolved "https://registry.yarnpkg.com/filesize/-/filesize-10.1.6.tgz#31194da825ac58689c0bce3948f33ce83aabd361"
+  integrity sha512-sJslQKU2uM33qH5nqewAwVB2QgR6w1aMNsYUp3aN5rMRyXEwJGmZvaWzeJFNTOXWlHQyBFCWrdj3fV/fsTOX8w==
 
 fill-range@^7.0.1:
   version "7.0.1"
@@ -11746,7 +11746,7 @@ universalify@^0.2.0:
 
 universalify@^2.0.0:
   version "2.0.1"
-  resolved "https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.1.tgz#168efc2180964e6386d061e094df61afe239b18d"
   integrity sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==
 
 unpipe@1.0.0, unpipe@~1.0.0:
